@@ -9,6 +9,11 @@
     --white: #ffffff;
 }
 
+@font-face {
+    font-family: 'Zuume';
+    src: url('./fonts/zuume_fonts/Zuume-Black.otf') format('truetype');
+  }
+
 body {
     background-image: url("./img/bg-main-content.png");
 }
