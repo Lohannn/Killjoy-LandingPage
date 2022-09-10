@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    cursor: default;
 }
 
 :root {
@@ -48,10 +49,6 @@ header {
     flex-direction: row;
 }
 
-.header__logo:hover{
-    filter: invert(100%);
-}
-
 .games{
     cursor: pointer;
     transition: all 0.5s;
@@ -59,6 +56,7 @@ header {
 
 .games:hover{
     filter: invert(100%);
+    transform: translateY(30%);
 }
 
 .champion{
@@ -68,6 +66,7 @@ header {
 
 .champion:hover{
     filter: invert(100%);
+    transform: translateY(30%);
 }
 
 .discover{
@@ -77,6 +76,7 @@ header {
 
 .discover:hover{
     filter: invert(100%);
+    transform: translateY(30%);
 }
 
 .notes{
@@ -86,6 +86,7 @@ header {
 
 .notes:hover{
     filter: invert(100%);
+    transform: translateY(30%);
 }
 
 .e-sports{
@@ -95,6 +96,7 @@ header {
 
 .e-sports:hover{
     filter: invert(100%);
+    transform: translateY(30%);
 }
 
 .news{
@@ -104,6 +106,7 @@ header {
 
 .news:hover{
     filter: invert(100%);
+    transform: translateY(30%);
 }
 
 .support{
@@ -113,6 +116,7 @@ header {
 
 .support:hover{
     filter: invert(100%);
+    transform: translateY(30%);
 }
 
 
@@ -226,10 +230,13 @@ main {
     text-align: center;
     font-size: 26px;
     color: var(--white);
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
 .junte-se{
     transform: translateY(-10%);
+    cursor: pointer;
 }
 
 .vermelho {
@@ -240,6 +247,14 @@ main {
     color: var(--primary-color);
     left: 783px;
     top: 487px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.join:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+    text-shadow: 1px 1px 0px var(--secondary-color);
 }
 
 .killjoy {
@@ -282,6 +297,7 @@ main {
     border: 1px solid var(--primary-color);
     top: 754px;
     left: 60px;
+    z-index: 1;
 }
 
 .vermelhoPatch2{
@@ -300,6 +316,10 @@ main {
     border: 1px solid var(--primary-color);
     top: 754px;
     left: 711px;
+}
+
+#text{
+    z-index: 2;
 }
 
 #mini__photo{
@@ -338,11 +358,42 @@ main {
     min-width: 20px;
     max-height: 17.33px;
     min-height: 17.33px;
+    transform: translateY(40%);
+}
+
+.reddit{
+    cursor: pointer;
+    z-index: 2;
+}
+
+.reddit:hover{
+    filter: opacity(0.5) drop-shadow(0px 0px 0px var(--primary-color));
+}
+
+.twitter{
+    cursor: pointer;
+    z-index: 2;
+}
+
+.twitter:hover{
+    filter: opacity(0.5) drop-shadow(0px 0px 0px var(--primary-color));
 }
 
 #verMais{
     padding-left: 10px;
-    transform: translate(15%, -13%)
+    transform: translate(15%, -13%);
+    cursor: pointer;
+}
+
+.vermais{
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 0.1ms;
+    
+}
+
+.vermais:hover{
+    color: var(--primary-color);
 }
 
 .maisinho{
