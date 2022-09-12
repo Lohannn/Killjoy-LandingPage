@@ -139,6 +139,7 @@ main {
     color: var(--primary-color);
     left: 783px;
     top: 487px;
+    cursor: pointer;
 }
 
 .killjoy {
