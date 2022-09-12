@@ -1,12 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    cursor: default;
 }
 
 :root {
     --primary-color: #FF4655;
     --secondary-color: #0F1923;
     --white: #ffffff;
+}
+
+a {
+    text-decoration: none
 }
 
 body {
@@ -20,7 +25,9 @@ p {
 h1,
 h2,
 h3 {
-    font-family: 'Zuume', sans-serif;
+    font-family: 'Antonio', sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
 }
 
 header {
@@ -34,6 +41,7 @@ header {
     padding-right: 64px;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .header__logo {
@@ -41,14 +49,103 @@ header {
     flex-direction: row;
 }
 
+.games {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.games:hover {
+    filter: invert(100%);
+    transform: translateY(30%);
+}
+
+.champion {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.champion:hover {
+    filter: invert(100%);
+    transform: translateY(30%);
+}
+
+.discover {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.discover:hover {
+    filter: invert(100%);
+    transform: translateY(30%);
+}
+
+.notes {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.notes:hover {
+    filter: invert(100%);
+    transform: translateY(30%);
+}
+
+.e-sports {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.e-sports:hover {
+    filter: invert(100%);
+    transform: translateY(30%);
+}
+
+.news {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.news:hover {
+    filter: invert(100%);
+    transform: translateY(30%);
+}
+
+.support {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.support:hover {
+    filter: invert(100%);
+    transform: translateY(30%);
+}
+
 .riot__header {
     width: 165px;
     height: 55px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.riot__header:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: invert(100%);
 }
 
 .separador {
     padding-right: 32px;
     padding-left: 32px;
+}
+
+.valorant__header {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.valorant__header:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: invert(100%);
 }
 
 .header__options {
@@ -83,7 +180,9 @@ main {
 .title {
     color: var(--primary-color);
     font-size: 220px;
-    padding-top: 65px;
+    padding-top: 35px;
+    letter-spacing: -11px;
+    transform: translateX(-1.3%);
 }
 
 .title__complement {
@@ -91,13 +190,14 @@ main {
     position: absolute;
     z-index: 5;
     font-size: 48px;
-    left: 395px;
-    top: 337px;
+    left: 469px;
+    top: 360px;
 }
 
 .bio__title {
     color: var(--white);
     font-size: 32px;
+    font-style: normal;
 }
 
 .descricao {
@@ -127,8 +227,15 @@ main {
     z-index: 5;
     justify-content: center;
     text-align: center;
-    font-size: 36px;
+    font-size: 26px;
     color: var(--white);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.junte-se {
+    transform: translateY(-10%);
+    cursor: pointer;
 }
 
 .vermelho {
@@ -175,11 +282,115 @@ main {
     padding-right: 17px;
 }
 
+.vermelhoPatch1 {
+    position: absolute;
+    width: 273.5px;
+    height: 119.3px;
+    border: 1px solid var(--primary-color);
+    top: 754px;
+    left: 60px;
+    z-index: 1;
+}
+
+.vermelhoPatch2 {
+    position: absolute;
+    width: 273.5px;
+    height: 119.3px;
+    border: 1px solid var(--primary-color);
+    top: 754px;
+    left: 385px;
+}
+
+.vermelhoPatch3 {
+    position: absolute;
+    width: 273.5px;
+    height: 119.3px;
+    border: 1px solid var(--primary-color);
+    top: 754px;
+    left: 711px;
+}
+
+#text {
+    z-index: 2;
+}
+
+#mini__photo {
+    align-self: flex-start;
+    padding-right: 30px;
+    width: 93px;
+    height: 80px;
+    transform: translate(-10%, 10%);
+    z-index: 5;
+}
+
 #mini__title {
     align-self: flex-end;
     justify-self: center;
+    font-size: 15px;
 }
 
-.mini__red {
+#mini__text {
+    font-weight: 500;
+    font-size: 9.9px;
+}
+
+#mini__red {
     color: var(--primary-color);
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+#mini__link {
+    align-self: center;
+    max-width: 20px;
+    min-width: 20px;
+    max-height: 17.33px;
+    min-height: 17.33px;
+    transform: translateY(40%);
+}
+
+.reddit {
+    cursor: pointer;
+    z-index: 2;
+}
+
+.reddit:hover {
+    filter: opacity(0.5) drop-shadow(0px 0px 0px var(--primary-color));
+}
+
+.twitter {
+    cursor: pointer;
+    z-index: 2;
+}
+
+.twitter:hover {
+    filter: opacity(0.5) drop-shadow(0px 0px 0px var(--primary-color));
+}
+
+#verMais {
+    padding-left: 10px;
+    transform: translate(15%, -13%);
+    cursor: pointer;
+}
+
+.vermais {
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 0.1ms;
+}
+
+.vermais:hover {
+    color: var(--primary-color);
+}
+
+.maisinho {
+    font-size: 25px;
+}
+
+.links301 {
+    transform: translateY(40%);
 }
