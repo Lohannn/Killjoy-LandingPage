@@ -233,6 +233,11 @@ main {
     transition: all 0.5s;
 }
 
+.join:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+
 .junte-se {
     transform: translateY(-10%);
     cursor: pointer;
