@@ -179,9 +179,9 @@ main {
 
 .killjoy-bg{
     position: absolute;
-    height: 80%;
-    top: 200px;
-    left: 150px;
+    height: 98%;
+    top: 150px;
+    left: 40px;
     z-index: -5;
 }
 
