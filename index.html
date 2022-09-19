@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Landing Page para apresentar a agente Killjoy do Valorant">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,37 +21,38 @@
 <body>
     <header>
         <div class="header__logo">
-            <a href="https://www.riotgames.com/pt-br"><img id="header__logo" class="riot__header"
-                    src="./img/riot-logo-header.png" alt=""></a>
+            <a href="https://www.riotgames.com/pt-br" aria-label="ir para site da Riot Games"><img id="header__logo" class="riot__header"
+                    src="./img/riot-logo-header.png" alt="logo riot games"></a>
             <img id="header__logo" class="separador" src="./img/separador.png" alt="">
-            <a href="https://playvalorant.com/pt-br/"><img id="header__logo" src="./img/valorant-logo-header.png" alt=""
+            <a href="https://playvalorant.com/pt-br/" aria-label="ir para site do Valorant"><img id="header__logo" src="./img/valorant-logo-header.png" alt=""
                     class="valorant__header"></a>
         </div>
         <div class="header__options">
-            <a href="https://playvalorant.com/pt-br/">
+            <a href="https://playvalorant.com/pt-br/" aria-label="ir para site do Valorant">
                 <p id="header__options" class="games">GAME</p>
             </a>
-            <a href="https://playvalorant.com/pt-br/agents/">
+            <a href="https://playvalorant.com/pt-br/agents/" aria-label="ir para lista de Agentes">
                 <p id="header__options" class="champion">CHAMPION</p>
             </a>
-            <a href="https://playvalorant.com/pt-br/media/">
+            <a href="https://playvalorant.com/pt-br/media/" aria-label="ir para site de mídias do Valorant">
                 <p id="header__options" class="discover">DISCOVER</p>
             </a>
-            <a href="https://playvalorant.com/pt-br/news/game-updates/">
+            <a href="https://playvalorant.com/pt-br/news/game-updates/" aria-label="ir para updates do Valorant">
                 <p id="header__options" class="notes">PATCH NOTES</p>
             </a>
-            <a href="https://valorantesports.com/">
+            <a href="https://valorantesports.com/" aria-label="ir para site de E-Sports sobre Valorant">
                 <p id="header__options" class="e-sports">E-SPORTS</p>
             </a>
-            <a href="https://playvalorant.com/pt-br/news/">
+            <a href="https://playvalorant.com/pt-br/news/" aria-label="ir para página de notícias de Valorant">
                 <p id="header__options" class="news">NEWS</p>
             </a>
-            <a href="https://support-valorant.riotgames.com/hc/pt-br/">
+            <a href="https://support-valorant.riotgames.com/hc/pt-br/" aria-label="ir para site de suporte do Valorant">
                 <p id="header__options" class="support">SUPPORT</p>
             </a>
         </div>
     </header>
     <main>
+        <img src="./img/killjoy-opaque.png" class="killjoy-bg">
         <div class="bio">
             <h1 class="title">KILLJOY</h1>
             <h3 class="title__complement">SENTINEL</h3>
@@ -68,12 +70,12 @@
         <img src="./img/killjoy.png" alt="" class="killjoy">
         <img src="./img/valorant-title.png" alt="" class="valorant__title">
 
-            <a href="https://playvalorant.com/pt-br/download/" class="join">
-                <h3 class="junte-se">JOIN NOW</h3>
-            </a>
-            <a href="https://playvalorant.com/pt-br/download/" class="vermelho">
-                <h3 class="0">JOIN NOW</h3>
-            </a>
+        <a href="https://playvalorant.com/pt-br/download/" class="join">
+            <h3 class="junte-se">JOIN NOW</h3>
+        </a>
+        <a href="https://playvalorant.com/pt-br/download/" class="vermelho">
+            <h3 class="0">JOIN NOW</h3>
+        </a>
 
         <div class="patchs">
             <div id="patchs" class="patch1">
@@ -83,9 +85,14 @@
                     <p id="mini__text">Hey! Let’s start with a quick note on Yoru from our Character Producer, John
                         Goscicki:</p>
                     <div id="links">
-                        <a href="https://www.reddit.com/r/VALORANT/"><img src="./img/reddit.svg" alt="" id="mini__link" class="reddit"></a>
-                        <a href="https://twitter.com/playvalorant"><img src="./img/twitter.svg" alt="" id="mini__link" class="twitter"></a>
-                        <a class="vermais" href="https://playvalorant.com/pt-br/news/game-updates/notas-da-atualizacao-3-03-do-valorant/"><h3 id="verMais">SEE MORE<span class="maisinho" id="mini__red">+</span></h3></a>
+                        <a href="https://www.reddit.com/r/VALORANT/" aria-label="abrir Reddit do Valorant"><img src="./img/reddit.svg" alt="" id="mini__link"
+                                class="reddit"></a>
+                        <a href="https://twitter.com/playvalorant" aria-label="abrir Twitter do Valorant"><img src="./img/twitter.svg" alt="" id="mini__link"
+                                class="twitter"></a>
+                        <a class="vermais"
+                            href="https://playvalorant.com/pt-br/news/game-updates/notas-da-atualizacao-3-03-do-valorant/">
+                            <h3 id="verMais">SEE MORE<span class="maisinho" id="mini__red">+</span></h3>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -96,23 +103,34 @@
                     <p id="mini__text">More bug fixes in this patch while we continue to evaluate those large Episode 3.
                     </p>
                     <div id="links">
-                        <a href="https://www.reddit.com/r/VALORANT/"><img src="./img/reddit.svg" alt="" id="mini__link" class="reddit"></a>
-                        <a href="https://twitter.com/playvalorant"><img src="./img/twitter.svg" alt="" id="mini__link" class="twitter"></a>
-                        <a class="vermais" href="https://playvalorant.com/pt-br/news/game-updates/notas-da-atualizacao-3-02-do-valorant/"><h3 id="verMais">SEE MORE<span class="maisinho" id="mini__red">+</span></h3></a>
+                        <a href="https://www.reddit.com/r/VALORANT/" aria-label="abrir Reddit do Valorant"><img src="./img/reddit.svg" alt="" id="mini__link"
+                                class="reddit"></a>
+                        <a href="https://twitter.com/playvalorant" aria-label="abrir Twitter do Valorant"><img src="./img/twitter.svg" alt="" id="mini__link"
+                                class="twitter"></a>
+                        <a class="vermais"
+                            href="https://playvalorant.com/pt-br/news/game-updates/notas-da-atualizacao-3-02-do-valorant/">
+                            <h3 id="verMais">SEE MORE<span class="maisinho" id="mini__red">+</span></h3>
+                        </a>
                     </div>
                 </div>
             </div>
 
             <div id="patchs" class="patch3">
                 <img id="mini__photo" class="KAYO" src="./img/KAYO.png" alt="">
-                <div id="text">
+                <div class="text3" id="text">
                     <h3 id="mini__title">VALORANT PATCH NOTES <span id="mini__red">3.01</span></h3>
                     <p id="mini__text">Patch 3.0 was like an over-sized meal, where now we sit and let the food settle.
+                        ⠀⠀⠀⠀⠀⠀⠀⠀
                     </p>
                     <div class="links301" id="links">
-                        <a href="https://www.reddit.com/r/VALORANT/"><img src="./img/reddit.svg" alt="" id="mini__link" class="reddit"></a>
-                        <a href="https://twitter.com/playvalorant"><img src="./img/twitter.svg" alt="" id="mini__link" class="twitter"></a>
-                        <a class="vermais" href="https://playvalorant.com/pt-br/news/game-updates/notas-da-atualizacao-3-01-de-valorant/"><h3 id="verMais">SEE MORE<span class="maisinho" id="mini__red">+</span></h3></a>
+                        <a href="https://www.reddit.com/r/VALORANT/" aria-label="abrir Reddit do Valorant"><img src="./img/reddit.svg" alt="" id="mini__link"
+                                class="reddit"></a>
+                        <a href="https://twitter.com/playvalorant" aria-label="abrir Twitter do Valorant"><img src="./img/twitter.svg" alt="" id="mini__link"
+                                class="twitter"></a>
+                        <a class="vermais"
+                            href="https://playvalorant.com/pt-br/news/game-updates/notas-da-atualizacao-3-01-de-valorant/">
+                            <h3 id="verMais">SEE MORE<span class="maisinho" id="mini__red">+</span></h3>
+                        </a>
                     </div>
                 </div>
             </div>
