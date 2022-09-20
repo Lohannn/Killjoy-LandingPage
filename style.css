@@ -25,13 +25,13 @@ body {
 }
 
 p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', "sans-serif";
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'fonte', sans-serif;
+    font-family: 'fonte', "sans-serif";
     font-weight: bold;
 }
 
@@ -260,7 +260,7 @@ main {
     position: absolute;
     background-color: var(--primary-color);
     color: var(--primary-color);
-    left: 704px;
+    left: 782px;
     top: 487px;
     cursor: pointer;
 }
@@ -268,7 +268,7 @@ main {
 .killjoy {
     position: absolute;
     height: 93%;
-    left: 1027px;
+    left: 1117px;
     top: 50px;
     z-index: 5;
 }
@@ -276,6 +276,7 @@ main {
 .valorant__title {
     grid-row: 1/-1;
     grid-column: 12/-1;
+    height: 80%;
     place-self: center start;
 }
 
@@ -299,30 +300,30 @@ main {
 
 .vermelhoPatch1 {
     position: absolute;
-    width: 243.5px;
+    width: 257.5px;
     height: 119.3px;
     border: 1px solid var(--primary-color);
     top: 690px;
-    left: 60px;
+    left: 59px;
     z-index: 1;
 }
 
 .vermelhoPatch2 {
     position: absolute;
-    width: 243.5px;
+    width: 257.5px;
     height: 119.3px;
     border: 1px solid var(--primary-color);
     top: 690px;
-    left: 356px;
+    left: 371px;
 }
 
 .vermelhoPatch3 {
     position: absolute;
-    width: 243.5px;
+    width: 257.5px;
     height: 119.3px;
     border: 1px solid var(--primary-color);
     top: 690px;
-    left: 656px;
+    left: 682px;
 }
 
 #text {
@@ -367,6 +368,8 @@ main {
     min-width: 20px;
     max-height: 17.33px;
     min-height: 17.33px;
+    width: 20px;
+    height: 17.33px;
     transform: translateY(40%);
 }
 
