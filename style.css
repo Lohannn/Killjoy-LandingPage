@@ -161,6 +161,7 @@ header {
     gap: 20px;
     grid-column: 4/7;
     place-self: center;
+    z-index: 5;
 }
 
 #header__options {
@@ -270,7 +271,7 @@ main {
     height: 93%;
     left: 1117px;
     top: 50px;
-    z-index: 5;
+    z-index: 4;
 }
 
 .valorant__title {
