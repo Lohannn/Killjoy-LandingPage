@@ -38,91 +38,21 @@ h3 {
 header {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    height: 60px;
+    height: 113px;
     background-color: var(--primary-color);
-    padding-top: 23px;
-    padding-bottom: 24px;
     padding-left: 64px;
     padding-right: 64px;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
 }
 
 .header__logo {
     display: flex;
     flex-direction: row;
+    padding-top: 27px;
+    padding-bottom: 25px;
 }
 
-.games {
-    cursor: pointer;
-    transition: all 0.5s;
-}
 
-.games:hover {
-    filter: invert(100%);
-    transform: translateY(30%);
-}
-
-.champion {
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.champion:hover {
-    filter: invert(100%);
-    transform: translateY(30%);
-}
-
-.discover {
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.discover:hover {
-    filter: invert(100%);
-    transform: translateY(30%);
-}
-
-.notes {
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.notes:hover {
-    filter: invert(100%);
-    transform: translateY(30%);
-}
-
-.e-sports {
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.e-sports:hover {
-    filter: invert(100%);
-    transform: translateY(30%);
-}
-
-.news {
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.news:hover {
-    filter: invert(100%);
-    transform: translateY(30%);
-}
-
-.support {
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.support:hover {
-    filter: invert(100%);
-    transform: translateY(30%);
-}
 
 .riot__header {
     width: 165px;
@@ -155,19 +85,42 @@ header {
 
 .header__options {
     width: 900px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
     grid-column: 4/7;
-    place-self: center;
     z-index: 5;
+}
+
+#link{
+    display: flex;
+    height: 89%;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    align-items: center;
 }
 
 #header__options {
     font-weight: 700;
     font-size: 15px;
     color: var(--secondary-color);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#link:hover{
+    background: linear-gradient(to bottom, transparent 70%, white);
+    border-right: 1px solid #ff808b;
+    border-left: 1px solid #ff808b;;
+    border-bottom: 1px solid #ff808b;;
+}
+
+#link:hover #header__options{
+    filter: invert(100%);
+    transform: translateY(30%);
 }
 
 main {
@@ -262,7 +215,7 @@ main {
     background-color: var(--primary-color);
     color: var(--primary-color);
     left: 782px;
-    top: 487px;
+    top: 493px;
     cursor: pointer;
 }
 
@@ -304,7 +257,7 @@ main {
     width: 257.5px;
     height: 119.3px;
     border: 1px solid var(--primary-color);
-    top: 690px;
+    top: 695px;
     left: 59px;
     z-index: 1;
 }
@@ -314,7 +267,7 @@ main {
     width: 257.5px;
     height: 119.3px;
     border: 1px solid var(--primary-color);
-    top: 690px;
+    top: 695px;
     left: 371px;
 }
 
@@ -323,7 +276,7 @@ main {
     width: 257.5px;
     height: 119.3px;
     border: 1px solid var(--primary-color);
-    top: 690px;
+    top: 695px;
     left: 682px;
 }
 
